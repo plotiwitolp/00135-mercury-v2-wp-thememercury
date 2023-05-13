@@ -8,9 +8,9 @@
     $('.reviews').slick({
       dots: true,
       arrows: false,
-      infinity: false,
       slidesToShow: 3,
-      initialSlide: 2,
+      // infinity: false,
+      // initialSlide: 1,
       centerMode: true,
       focusOnSelect: true,
       responsive: [

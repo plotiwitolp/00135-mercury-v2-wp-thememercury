@@ -73,7 +73,7 @@ function create_product_post_type()
             'has_archive' => true,
             'menu_icon' => 'dashicons-products',
             'labels' => array(
-                'name' => __('Product'),
+                'name' => __('Products'),
                 'singular_name' => __('Product'),
                 'add_new' => __('Add new product'),
             ),

@@ -4,42 +4,42 @@
         <div class="footer">
             <div class="footer__top">
                 <div class="footer__logo">
-                    <img src="./assets/img/footer_logo.png" alt="footer_logo">
+                    <img src="<?php the_field('logo_footer', 17); ?>" alt="footer_logo">
                 </div>
                 <div class="footer__contacts">
-                    <h3>Contacts</h3>
+                    <h3><?php the_field('title_contacts_footer', 17); ?></h3>
                     <dl class="dl">
                         <div class="dl__item">
                             <dt>
-                                T:
+                                <?php the_field('title_telephone_footer', 17); ?>
                             </dt>
                             <dd>
-                                (754) 222-1120
+                                <?php the_field('tel_number_footer', 17); ?>
                             </dd>
                         </div>
                         <div class="dl__item">
                             <dt>
-                                Email:
+                                <?php the_field('title_mail_footer', 17); ?>
                             </dt>
                             <dd>
-                                mercuryglassandmirror@gmail.com
+                                <?php the_field('email_footer', 17); ?>
                             </dd>
                         </div>
                         <div class="dl__item">
                             <dt>
-                                Address:
+                                <?php the_field('title_address_footer', 17); ?>
                             </dt>
                             <dd>
-                                <address>2119 N 48th Ave, Hollywood, FL 33021</address>
+                                <address><?php the_field('address_footer', 17); ?></address>
                             </dd>
                         </div>
                     </dl>
                 </div>
                 <div class="footer__more-info">
-                    <h3>MORE INFORMATION</h3>
+                    <h3><?php the_field('title_more_info_footer', 17); ?></h3>
                     <div class="footer__more-info-inner">
-                        <a href="#">Info</a>
-                        <a href="#">Price calculator</a>
+                        <a href="<?php the_field('link_info_footer', 17); ?>"><?php the_field('title_info_footer', 17); ?></a>
+                        <a href="<?php the_field('link_price_calculator_footer', 17); ?>"><?php the_field('title_price_calculator_footer', 17); ?></a>
                     </div>
                 </div>
             </div>
@@ -49,12 +49,12 @@
                 </div>
                 <div class="footer__socials">
                     <div class="footer__socials-item">
-                        <a href="#">
+                        <a href="<?php the_field('link_facebook', 17); ?>">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="footer__socials-item">
-                        <a href="#">
+                        <a href="<?php the_field('link_instagram', 17); ?>">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                     </div>

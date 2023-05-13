@@ -604,6 +604,9 @@ a.products__item-btn {
   display: -ms-flexbox;
   display: flex;
 }
+.reviews__autor-pic img {
+  width: 100%;
+}
 
 .reviews__autor-name {
   font-weight: 600;

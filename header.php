@@ -28,19 +28,6 @@
                                 'theme_location'  => 'primary'
                             ]); ?>
                         </div>
-
-                        <!-- <div class="wp-menu">
-                                <ul>
-                                    <li><a href="./">Home</a></li>
-                                    <li><a href="#">Mirror</a></li>
-                                    <li><a href="#">Glass</a></li>
-                                    <li><a href="#">Gallery</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </div> -->
-
-
                         <div class="header__menu-burger">
                             <div class="header__menu-burger-open menu-burger_active"></div>
                             <div class="header__menu-burger-close "></div>
@@ -49,8 +36,8 @@
                 </nav>
                 <div class="header__contact">
                     <div class="header__contact-item">
-                        <a href="tel:+">
-                            <img src="./assets/img/phone.png" alt="phone">
+                        <a href="<?php the_field('link_right_icon', 17); ?>">
+                            <img src="<?php the_field('right_icon', 17); ?>" alt="phone">
                         </a>
                     </div>
                 </div>
